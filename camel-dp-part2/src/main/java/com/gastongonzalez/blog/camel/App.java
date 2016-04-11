@@ -5,12 +5,9 @@ import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.component.gson.GsonDataFormat;
 import org.apache.camel.component.solr.SolrConstants;
 import org.apache.camel.impl.DefaultCamelContext;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 public class App
 {
-    private static final Logger LOG = LoggerFactory.getLogger(App.class);
     public static void main( String[] args ) throws Exception
     {
         CamelContext context = new DefaultCamelContext();
